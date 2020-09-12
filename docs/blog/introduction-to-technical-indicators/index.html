@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Introduction to Technical Indicators [ Part 1 ]</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Finance and Analytics Club">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/faciitk.netlify.app/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="faciitk.netlify.app/images/logo.png" type="image/x-icon">
+  <link rel="icon" href="faciitk.netlify.app/images/logo.png" type="image/x-icon">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/faciitk.netlify.app">
+              <img src="faciitk.netlify.app/images/logo.png" alt="Finance and Analytics Club" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/faciitk.netlify.app/">Home</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/about">About</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/project">Project</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/events">Events</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/team">Our Team</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/blog">Blog</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/contact">Contact</a></li>
+              
+              
+
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('/images/featue-bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Introduction to Technical Indicators [ Part 1 ]</h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="post post-single">
+					<h2 class="post-title">Introduction to Technical Indicators [ Part 1 ]</h2>
+					<div class="post-meta">
+						<ul>
+              <li><i class="ion-calendar"></i> August 27, 2020</li>
+              <li><i class="ion-android-people"></i>
+                Posted By
+                
+                <a class="text-primary" href="/faciitk.netlify.app/author/abhishek-verma">Abhishek Verma</a>
+                
+              </li>
+              <li><i class="ion-pricetags"></i> 
+                
+                <a href="/faciitk.netlify.app/tags/finance">Finance</a>
+								
+                , <a href="/faciitk.netlify.app/tags/algorithmic%20trading">Algorithmic trading</a>
+								
+              </li>
+            </ul>
+					</div>
+					<div class="post-thumb">
+						<img class="img-responsive" src="/faciitk.netlify.app/images/ta-2.png" alt="Introduction to Technical Indicators [ Part 1 ]">
+					</div>
+					<div class="post-content post-excerpt">
+						<h2 id="what-is-algorithm-trading"><strong>What is Algorithm Trading?</strong></h2>
+<p>Algorithmic trading simply means that process which helps execute trade orders in an automated manner. It is more beneficial than manual trading since it provides for much more trading profits.</p>
+<p>In simple words, Algorithmic Trading is a process of converting a trading strategy into computer code which buys and sells (place the trade) the shares in an automated, fast and accurate way. Since the automated way of trading is faster and more accurate, it is preferred nowadays and is increasing its reach in emerging markets rapidly.</p>
+<p>So as the name sounds interesting this field is very vast and promising. But for now I wants to share one of the most important part of Algo-trading i.e. <strong>Technical Indicators</strong>.</p>
+<h2 id="five-indicators-to-build-a-trend-following-strategy"><strong>Five Indicators To Build A Trend Following Strategy</strong></h2>
+<p>Trend following strategies are strategies where you simply ride the trend, i.e. buy when the price is going up and sell when the price starts going down. In this strategy, one does not aim to forecast or predict, but simply keep an eye on the market for any emerging trends.</p>
+<p>We cover the following trend indicators in this article:</p>
+<h3 id="1--macd-moving-average-convergence-divergence"><strong>1.  MACD (Moving Average Convergence Divergence):</strong></h3>
+<p>Moving Averages indicator is a widely used technical indicator that is used to arrive at a decision that is not based on one or two episodes of price fluctuations. A set of historical data can be employed to observe the price fluctuations of the stock for a predetermined period of time. The same assists in depicting the general direction of the trend flow. This technique is used for generating support and building resilience for future outcomes.</p>
+<p>It is a trend following momentum indicator which is calculated by taking the difference of 2 exponential moving averages of an asset price (typically 26 period EMA and 12 period EMA). A signal line is also calculated which is the moving average of the MACD line(typically 9 period) calculated in the above step.</p>
+<p>More info at - <a href="https://www.investopedia.com/terms/m/macd.asp" title="MACD - Investopedia">Click Here</a></p>
+<pre><code>def MACD(DF,a,b,c):
+    df = DF.copy()
+    df[&quot;MA_Fast&quot;]=df[&quot;Adj Close&quot;].ewm(span=a,min_periods=a).mean() # ewm is Exponential Moving Average 
+    df[&quot;MA_Slow&quot;]=df[&quot;Adj Close&quot;].ewm(span=b,min_periods=b).mean()
+    df[&quot;MACD&quot;]=df[&quot;MA_Fast&quot;]-df[&quot;MA_Slow&quot;]
+    df[&quot;Signal&quot;]=df[&quot;MACD&quot;].ewm(span=c,min_periods=c).mean()
+    df.dropna(inplace=True)
+    return df
+</code></pre>
+<h3 id="2--rsi-relative-strength-index-"><strong>2.  RSI (Relative Strength Index) :</strong></h3>
+<p>The Relative Strength Index (RSI) indicator, as the name suggests, tells us the relative strength of the asset. In other words, the RSI tells us how well the stock is performing (or not) with respect to itself. RSI is counted as a robust technical indicator which can be used to analyse the market and is an important part of the trader’s arsenal as it helps them to make better decisions in timing the market.</p>
+<p>It is a momentum oscillator which measures the speed and change of price movements. RSI values oscillates between 0 to 100 with values above 70 indicating that the asset has now reached overbought territory. Values below 30 signify oversold territory. Assets can remain in oversold and overbought territory for a long period of time.</p>
+<p>The relative strength index ie RSI Indicator is calculated using the following formula:</p>
+<p><strong>RSI = 100 – 100 / (1 + RS)</strong></p>
+<p>where RS = Average gain of up periods during the specified time frame / Average loss of down periods during the specified timeframe.</p>
+<p>More info at: <a href="https://www.investopedia.com/terms/r/rsi.asp" title="RSI - Investopedia">Click Here</a></p>
+<pre><code>def RSI(DF,n):
+    df = DF.copy()
+    df['delta']=df['Adj Close'] - df['Adj Close'].shift(1)
+    df['gain']=np.where(df['delta']&gt;=0,df['delta'],0) # np.where is the if else staement for numpy, also check documentaion page
+    df['loss']=np.where(df['delta']&lt;0,abs(df['delta']),0) # note we are taking absolute value of loss
+    avg_gain = []
+    avg_loss = []
+    gain = df['gain'].tolist()
+    loss = df['loss'].tolist()
+    for i in range(len(df)):
+        if i &lt; n:
+            avg_gain.append(np.NaN)
+            avg_loss.append(np.NaN)
+        elif i == n:
+            avg_gain.append(df['gain'].rolling(n).mean().tolist()[n])
+            avg_loss.append(df['loss'].rolling(n).mean().tolist()[n])
+        elif i &gt; n:
+            avg_gain.append(((n-1)*avg_gain[i-1] + gain[i])/n)
+            avg_loss.append(((n-1)*avg_loss[i-1] + loss[i])/n)
+    df['avg_gain']=np.array(avg_gain)
+    df['avg_loss']=np.array(avg_loss)
+    df['RS'] = df['avg_gain']/df['avg_loss']
+    df['RSI'] = 100 - (100/(1+df['RS']))
+    return df
+</code></pre>
+<h3 id="3-obv-on-balance-volume"><strong>3. OBV (On Balance Volume)</strong></h3>
+<p>OBV Indicator is a momentum based indicator which measures volume flow to gauge the direction of the trend. Volume and price rise are directly proportional. A rising price is depicted by a rising OBV and a falling OBV stands for a falling price. If OBV depicts a rise in the same pattern as the prices this is a positive indicator. While a contrast with the pattern depicts a negative indicator.</p>
+<p>OBV is used as a confirmation tool with regards to price trends. If the OBV increases with respect to the increasing price trend, it can be inferred that the price trend is sustainable. If, however, the OBV shows a decline with respect to the increasing price trend, then it could signal a price trend reversal.</p>
+<p>A rising OBV reflects positive volume pressure that can lead to higher prices and falling OBV predicts decline in prices. Leading market indicator but prone to making false signals. Typically, used in conjunction with lagging indicators such as MACD.</p>
+<p>More info at: <a href="https://www.investopedia.com/terms/o/onbalancevolume.asp" title="OBV -Investopedia">Click Here</a></p>
+<pre><code>def OBV(DF):
+    df = DF.copy()
+    df['daily_ret'] = df['Adj Close'].pct_change() # Percentage change between the current and a prior element
+    df['direction'] = np.where(df['daily_ret']&gt;=0,1,-1)
+    df['direction'][0] = 0
+    df['vol_adj'] = df['Volume'] * df['direction']
+    df['obv'] = df['vol_adj'].cumsum()
+    return df
+</code></pre>
+<h3 id="4-adx-average-directional-index"><strong>4. ADX (Average Directional Index)</strong></h3>
+<p>You can use the Average Directional Index (ADX) indicator if you want to determine the intensity or strength of a trend. But why would you want to find the intensity of a trend? If you trade in a weaker trend then there is a high probability of reversal compared to a stronger trend. So combining your directional trades with a stronger trend will help you achieve higher hit ratio and higher average profitability per trade.</p>
+<p>Here is an interesting fact, while the name is the Average Directional Index (ADX), it does not tell us the direction of the trend. While it may sound alarming, the reason for this is quite simple, The ADX indicator is always used in conjunction with the Positive directional indicator and the Negative directional indicator, which indicate the up and downtrend respectively.</p>
+<p>ADX is non directional meaning it makes no inference about the direction of the trend but only about the strength of the trend. The calculation involves finding both positive and negative directional movement (by comparing successive highs and lows) and then calculating the smoothed average of the difference of these.</p>
+<p>More info at: <a href="https://www.investopedia.com/articles/trading/07/adx-trend-indicator.asp" title="ADX - Investopedia">Click Here </a></p>
+<pre><code>def ADX(DF,n):
+    df2 = DF.copy()
+    df2['TR'] = ATR(df2,n)['TR'] #the period parameter of ATR function does not matter because period does not influence TR calculation
+    df2['DMplus']=np.where((df2['High']-df2['High'].shift(1))&gt;(df2['Low'].shift(1)-df2['Low']),df2['High']-df2['High'].shift(1),0)
+    df2['DMplus']=np.where(df2['DMplus']&lt;0,0,df2['DMplus']) # Directional Movement Up
+    df2['DMminus']=np.where((df2['Low'].shift(1)-df2['Low'])&gt;(df2['High']-df2['High'].shift(1)),df2['Low'].shift(1)-df2['Low'],0)
+    df2['DMminus']=np.where(df2['DMminus']&lt;0,0,df2['DMminus']) # Directional Movement Down
+    TRn = []                 # To smooth the True Range
+    DMplusN = []             # To smooth upward Directional Movement
+    DMminusN = []            # To smooth downward Directional Movement
+    TR = df2['TR'].tolist()
+    DMplus = df2['DMplus'].tolist()
+    DMminus = df2['DMminus'].tolist()
+    for i in range(len(df2)):
+        if i &lt; n:
+            TRn.append(np.NaN)
+            DMplusN.append(np.NaN)
+            DMminusN.append(np.NaN)
+        elif i == n:
+            TRn.append(df2['TR'].rolling(n).sum().tolist()[n])
+            DMplusN.append(df2['DMplus'].rolling(n).sum().tolist()[n])
+            DMminusN.append(df2['DMminus'].rolling(n).sum().tolist()[n])
+        elif i &gt; n:
+            TRn.append(TRn[i-1] - (TRn[i-1]/n) + TR[i])
+            DMplusN.append(DMplusN[i-1] - (DMplusN[i-1]/n) + DMplus[i])
+            DMminusN.append(DMminusN[i-1] - (DMminusN[i-1]/n) + DMminus[i])
+    df2['TRn'] = np.array(TRn)
+    df2['DMplusN'] = np.array(DMplusN)
+    df2['DMminusN'] = np.array(DMminusN)
+    df2['DIplusN']=100*(df2['DMplusN']/df2['TRn'])
+    df2['DIminusN']=100*(df2['DMminusN']/df2['TRn'])
+    df2['DIdiff']=abs(df2['DIplusN']-df2['DIminusN'])
+    df2['DIsum']=df2['DIplusN']+df2['DIminusN']
+    df2['DX']=100*(df2['DIdiff']/df2['DIsum'])
+    ADX = []
+    DX = df2['DX'].tolist()
+    for j in range(len(df2)):
+        if j &lt; 2*n-1:
+            ADX.append(np.NaN)
+        elif j == 2*n-1:
+            ADX.append(df2['DX'][j-n+1:j+1].mean())
+        elif j &gt; 2*n-1:
+            ADX.append(((n-1)*ADX[j-1] + DX[j])/n)
+    df2['ADX']=np.array(ADX)
+    return df2
+</code></pre>
+<h3 id="5-bollinger-bands"><strong>5. Bollinger Bands</strong></h3>
+<p>Bollinger band is a volatility based indicator. Bollinger band indicators are signals plotted on a singular line which represent the price fluctuations for a particular stock. They consist of three lines, Upper Bollinger band, Middle band, Lower Bollinger band. The upper and lower Bollinger bands are plotted two standard deviations away from the mean average. The two signals or the bands are plotted to measure the volatility of the price fluctuations.When markets become more volatile, the distance between the signals increases or in short the bandwidth widens and the reverse for low volatility. Higher the volatility, higher the cue for quitting the trade. The reason the Bollinger bands are plotted two standard deviations away from the mean average is to make sure that the distance between the two bands comprises more than 80% of the price action, thus making any price above or below the bands highly significant.</p>
+<h5 id="more-info-at--click-here-">More info at:  <a href="">Click Here </a></h5>
+<pre><code>def BollBnd(DF,n):
+    df = DF.copy()
+    df[&quot;MA&quot;] = df['Adj Close'].rolling(n).mean()
+    df[&quot;BB_up&quot;] = df[&quot;MA&quot;] + 2*df['Adj Close'].rolling(n).std(ddof=0) #ddof=0 is required since we want to take the standard deviation of the population and not sample
+    df[&quot;BB_dn&quot;] = df[&quot;MA&quot;] - 2*df['Adj Close'].rolling(n).std(ddof=0) #ddof=0 is required since we want to take the standard deviation of the population and not sample
+    df[&quot;BB_width&quot;] = df[&quot;BB_up&quot;] - df[&quot;BB_dn&quot;]
+    df.dropna(inplace=True)
+    return df</code></pre>
+
+					</div>
+					<div class="post-comments">
+						
+					</div>
+				</div>
+			</div>
+      <div class="col-md-4">
+        <aside class="sidebar"><div class="widget widget-latest-post">
+    <h4 class="widget-title">Latest Posts</h4>
+    
+    <div class="media">
+      <a class="pull-left" href="faciitk.netlify.app/blog/trading-strategies/">
+        <img class="media-object" src="/faciitk.netlify.app/images/blog2.png" alt="Trading Strategies ">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="faciitk.netlify.app/blog/trading-strategies/">Trading Strategies </a></h4>
+        <p>Note : All the finance related words are described …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="faciitk.netlify.app/blog/introduction-to-technical-indicators/">
+        <img class="media-object" src="/faciitk.netlify.app/images/ta-2.png" alt="Introduction to Technical Indicators [ Part 1 ]">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="faciitk.netlify.app/blog/introduction-to-technical-indicators/">Introduction to Technical Indicators [ Part 1 ]</a></h4>
+        <p>What is Algorithm Trading? Algorithmic trading …</p>
+      </div>
+    </div>
+    
+  </div><div class="widget widget-category">
+    <h4 class="widget-title">Categories</h4>
+    <ul class="widget-category-list">
+      <li><a href="/faciitk.netlify.app/categories/technical-indicators">Technical indicators</a></li>
+      <li><a href="/faciitk.netlify.app/categories/trading">Trading</a></li>
+    </ul>
+  </div><div class="widget widget-tag">
+    <h4 class="widget-title">Tags</h4>
+    <ul class="widget-tag-list">
+      <li><a href="/faciitk.netlify.app/tags/algorithmic-trading">Algorithmic trading</a></li>
+      <li><a href="/faciitk.netlify.app/tags/finance">Finance</a></li>
+      <li><a href="/faciitk.netlify.app/tags/stocks">Stocks</a></li>
+      <li><a href="/faciitk.netlify.app/tags/trading">Trading</a></li>
+    </ul>
+  </div></aside>
+
+      </div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="faciitk.netlify.app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/slick/slick.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="/faciitk.netlify.app/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>

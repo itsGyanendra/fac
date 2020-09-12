@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Finance and Analytics Club</title>
+    <link>faciitk.netlify.app/categories/</link>
+    <description>Recent content in Categories on Finance and Analytics Club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 29 Aug 2020 18:56:00 +0000</lastBuildDate>
+    
+	<atom:link href="faciitk.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trading</title>
+      <link>faciitk.netlify.app/categories/trading/</link>
+      <pubDate>Sat, 29 Aug 2020 18:56:00 +0000</pubDate>
+      
+      <guid>faciitk.netlify.app/categories/trading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technical Indicators</title>
+      <link>faciitk.netlify.app/categories/technical-indicators/</link>
+      <pubDate>Thu, 27 Aug 2020 21:30:00 +0000</pubDate>
+      
+      <guid>faciitk.netlify.app/categories/technical-indicators/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

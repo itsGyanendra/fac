@@ -1,0 +1,82 @@
+---
+banner:
+  enable: true
+  bg_image: images/banner.jpg
+  bg_overlay: true
+  title: Finance <br/> & Analytics Club
+  content: |2-
+
+    We work hard to make our result perfect
+  button:
+    enable: true
+    label: Discover Our Project
+    link: project
+about:
+  enable: true
+  title: About Us
+  description: ''
+  content: "The Finance  and Analytics Club, IIT Kanpur is one of the largest professional
+    clubs on campus, hosting a full schedule of events to help everyone from those
+    with no background in finance to those coming from finance looking to switch focus
+    within the industry. \n\nIt is a community of finance fanatics consisting of highly
+    dedicated coordinators (juniors) and secretaries (sophomores) working under them.
+    The team comprises of students from different majors brought together by their
+    interest in finance."
+  image: images/about.jpg
+portfolio:
+  enable: true
+  bg_image: images/featue-bg.jpg
+  title: WE BELIEVE IN GREAT IDEAS
+  content: "We believe that an investment in learning pays the best interest and that
+    one’s degree should never become an impediment in their way to pursue the things
+    they are passionate about. So, we organize various events, workshops and quizzes
+    for the campus community curious about finance and analytics. \n\nApart from this,
+    we offer a multitude of projects that touch upon different aspects. We believe
+    this would promote a holistic development of our own as well as other interested
+    students' knowledge of finance.\n\nWe also try to keep everyone updated with what
+    is going on in the corporate world by posting business and finance related articles
+    regularly on our Facebook handle. "
+  button:
+    enable: true
+    label: View Works
+    link: project
+service:
+  enable: true
+  service_item:
+  - name: ''
+    content: ''
+cta:
+  enable: true
+  bg_image: images/call-to-action-bg.jpg
+  title: We create delightful  experiences.
+  content: Read more about what we do and our philosophy of Finance and Analytics
+    . Judge for yourself .The work and results <br> we’ve achieved so far and meet
+    our highly enthusiastic Team who just love the world of Finance and Analytics.
+  button:
+    enable: true
+    label: Tell Us Your Story
+    link: contact
+funfacts:
+  enable: true
+  title: Fun Facts About Us
+  description: "'Far far away, behind the word mountains, far from the countries Vokalia
+    and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove
+    right at the coast of the Semantics'"
+  funfact_item:
+  - icon: ion-ios-chatboxes-outline
+    name: Members
+    count: "150"
+  - icon: ion-ios-glasses-outline
+    name: Article Written
+    count: "10"
+  - icon: ion-ios-compose-outline
+    name: Projects Completed
+    count: "125"
+  - icon: ion-ios-timer-outline
+    name: Ongoing Projects
+    count: "200"
+  testimonial_slider:
+  - name: ''
+    image: ''
+    designation: ''
+    content: ''

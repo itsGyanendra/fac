@@ -1,0 +1,34 @@
+<?php
+$field_name = $_POST['user_name'];
+$field_email = $_POST['user_email'];
+$field_subject =$_POST['user_subject'];
+$field_message = $_POST['user_message'];
+
+$mail_to = 'krgyan@iitk.ac.in';
+$subject = '[FAC WEBSITE]Feedback from a site visiter: '.$field_name;
+
+$body_message = 'From: '.$field_name."\n";
+$body_message .= 'E-mail: '.$field_email."\n";
+$body_message .= 'subject: '.$field_subject."\n";
+$body_message .= 'Message: '.$field_message;
+
+$headers = 'From: '.$field_email."\r\n";
+$headers .= 'Reply-To: '.$field_email."\r\n";
+
+$mail_status = mail($mail_to, $subject, $body_message, $headers);
+
+if ($mail_status) { ?>
+        <script language="javascript" type="text/javascript">
+                alert('Thank you for the message. We will contact you shortly.');
+                window.location = 'http://students.iitk.ac.in/fac/';
+        </script>
+<?php
+}
+else { ?>
+        <script language="javascript" type="text/javascript">
+                alert('Message failed.');
+                window.location = 'http://students.iitk.ac.in/fac/';
+        </script>
+<?php
+}
+?>

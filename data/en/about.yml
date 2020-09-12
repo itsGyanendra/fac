@@ -1,0 +1,83 @@
+---
+about:
+  enable: true
+  image: images/aboutpage.jpg
+  title: We strive to be the best and <br> make awesome work.
+  content: |
+    The Finance and Analytics Club, IIT Kanpur is one of the largest professional clubs on campus, hosting a full schedule of events to help everyone from those with no background in finance to those coming from finance looking to switch focus within the industry.
+
+    It is a community of finance fanatics consisting of highly dedicated coordinators (juniors) and secretaries (sophomores) working under them. The team comprises of students from different majors brought together by their interest in finance.
+
+    We believe that an investment in learning pays the best interest and that one’s degree should never become an impediment in their way to pursue the things they are passionate about. So, we organize various events, workshops and quizzes for the campus community curious about finance and analytics.
+
+    Apart from this, we offer a multitude of projects that touch upon different aspects. We believe this would promote a holistic development of our own as well as other interested students’ knowledge of finance.
+
+    We also try to keep everyone updated with what is going on in the corporate world by posting business and finance related articles regularly on our Facebook handle.
+  button:
+    enable: false
+    label: Download Company Profile
+    link: "#"
+  funfacts:
+  - icon: ion-ios-flask-outline
+    name: Completed Projects
+    count: "5"
+  - icon: ion-ios-flame-outline
+    name: Lines Of Code
+    count: "10000"
+  - icon: ion-ios-pint-outline
+    name: Members
+    count: "70"
+  - icon: ion-ios-wineglass-outline
+    name: Events Conducted
+    count: "6"
+features:
+  enable: true
+  title: Our work field include this but not limited to this.
+  feature_item:
+  - icon: ion-ios-color-filter-outline
+    name: Algorithmic Trading
+    content: ''
+  - icon: ion-ios-analytics-outline
+    name: Stock Analysis
+    content: ''
+  - icon: ion-ios-bar-chart-outline
+    name: Derivative Markets
+    content: ''
+  - icon: ion-ios-mic-outline
+    name: Data Science
+    content: ''
+  - icon: ion-ios-lightbulb-outline
+    name: Machine Learning
+    content: ''
+  - icon: ion-ios-star-outline
+    name: Equity Management
+    content: ''
+testimonial:
+  enable: false
+mission_vision:
+  enable: true
+  tabs:
+  - name: Vision
+    content: Finance and Analytics Club, established in March ,2020 is an SNT club
+      with a vision to forge financial literacy and skills in the people. We a team
+      of 30+  collectively strive to organize and create opportunities for the people
+      in the field of finance. We in our very first year of establishment, have made
+      massive progress by undertaking various projects such as (Name of projects),
+      this summer. We write several blogs, regularly release jargon on our social
+      media to instill the awareness in the people. We are continuously passionately
+      working hard on several projects to take it to newer heights.
+  - name: Mission
+    content: "1.)  To spread basic financial literacy in the campus junta with some
+      basic knowledge of stocks, trading, and other financial requisites such as making
+      investments in mutual funds, etc. which everyone would need irrespective of
+      any field they would be pursuing.\n\n2.)  Provide people who want to pursue
+      their career in finance, guidance, and resources which would help them ace in
+      the finance career with beneficial workshops and advice from alumni and other
+      professionals \n\n3.) Providing students with professional projects under the
+      guidance of mentors who are experts in the finance field so that they can have
+      a good hand experience and can have it on their resumes, which will give them
+      an edge over others in the finance field.\n\n4.) We organize various competitions
+      such as trading challenge so that we could bring out the best in students and
+      so they are well capable to ace in the world of finance.\n"
+cta:
+  enable: true

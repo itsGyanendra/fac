@@ -1,0 +1,253 @@
+---
+team:
+  enable: true
+  facultyadvisor: []
+  coordinator:
+  - name: Shubham Gupta
+    image: "/images/team/shubham.png"
+    position: Coordinator
+    facebook: https://www.facebook.com/profile.php?id=100026407539210
+    linkedin: https://www.linkedin.com/in/shubham-gupta-07a13217b/
+    phone: "8302105432"
+    email: shubgupt@iitk.ac.in
+    github: https://github.com/phinum
+    iitkaddress: G-380 Hall 2 , IITK
+    content: Hi, I am Shubham, a junior undergraduate in Chemical Engineering. I started working with the club since the beginning here at IIT Kanpur. My particular interests in Finance include derivative markets, forex and quantitative analysis. What I love about Finance is the simplistic mathematical beauty behind complicated nouns.
+  - name: Sarim Haroon
+    image: "/images/team/sarim.jpg"
+    position: Coordinator
+    facebook: https://www.facebook.com/sarim.haroon
+    linkedin: https://www.linkedin.com/in/sarimharoon/
+    phone: "7865069926"
+    email: sarim@iitk.ac.in
+    github: ''
+    content: Hi, I am Sarim Haroon, an MBA second-year student at IITK. My particular area of interest in finance is- How volatilities across asset classes (arising from corporate and market factors) triumph over our rational decision-making process — a study in Behavioural Finance. Being a part of this club, I feel buzzed all the time with the various thoughts from numerous colleagues of mine. I feel thankful to the club for bringing me closer to the notion that finance is actually not limited to our textbooks, but rather, in encashing the potential within an idea.
+    iitkaddress: B-227 Hall 10 ,IITK
+  - name: Shaurya Jain
+    image: "/images/team/shaurya.png"
+    position: Coordinator
+    facebook: https://www.facebook.com/shourya.jain.790
+    linkedin: https://www.linkedin.com/in/shaurya-jain-a9b1b8192/
+    phone: "7060169558"
+    email: shaurya@iitk.ac.in
+    github: ''
+    iitkaddress: E-312 Hall 12 , IITK
+    content: Hi, I am shourya jain an undergraduate in Materials science. My field of interest are quantitative and cooperative Finance. I am so much fascinated about using AI and deep learning in Financial modeling and in Algotrading. I am  associated with the club since my first year and learnt a lot from the club and peoples associated with it and love to share my knowledge with the campus community and anyone who wants to explore about Finance.
+  - name: Jatin Khandelwal
+    image: "/images/team/jatin.jpg"
+    position: Coordinator
+    facebook: https://www.facebook.com/jatin.khandelwal.336
+    linkedin: https://www.linkedin.com/in/jatin-khandelwal-b514b71a6/
+    phone: "9413446245"
+    email: jatin@iitk.ac.in
+    github: ''
+    iitkaddress: A-310 Hall 12 , IITK
+    content:
+  secretary:
+  - name: Gyanendra Kumar
+    image: "/images/team/gyanendra.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100012843422179
+    linkedin: https://www.linkedin.com/in/gyanendra-kumar-564868194/
+    phone: "7301276032"
+    email: krgyan@iitk.ac.in
+    github: https://github.com/itsgyanendra
+    iitkaddress: B-102 Hall 13 ,IITK
+  - name: Akashdeep Bhateja
+    image: "/images/team/akash.png"
+    position: Secretary
+    linkedin: https://www.linkedin.com/in/ akashdeep-bhateja-1b2b5a124/
+    email: abhateja@iitk.ac.in
+    github: https://github.com/Bhateja-Akash
+    iitkaddress: A-103 Hall 13 , IITK
+    facebook: https://www.facebook.com/ akash.bhateja.79/
+    phone: "9653100383"
+  - name: Abhishek Verma
+    image: "/images/team/abhishek.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100038925742699
+    linkedin: https://www.linkedin.com/in/abhishek-verma-300a3a1b4/
+    phone: "8957934462"
+    email: abhivrm@iitk.ac.in
+    github: ''
+    iitkaddress: B-103 Hall 13 , IITK
+  - name: Divyanshu Narang
+    image: "/images/team/divyanshu.png"
+    position: Secretary
+    facebook: https://www.facebook.com/divyanshu.narang.5
+    linkedin: https://www.linkedin.com/in/divyanshu-narang-2a82501aa/
+    phone: "7087864060"
+    email: dnarang@gmail.com
+    github: ''
+    iitkaddress: B-107 Hall 13 , IITK
+  - name: Akshat Goyal
+    image: "/images/team/akshat.png"
+    facebook: https://www.facebook.com/akshat.goyal.16906
+    linkedin: https://www.linkedin.com/in/akshat-goyal47
+    phone: "7898229495"
+    email: akshatgo@iitk.ac.in
+    github: ''
+    iitkaddress: A-305 Hall 13 , IITK
+    position: Secretary
+  - name: Mohammad Imad Khan
+    image: "/images/team/imad.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100031452944230
+    linkedin: https://www.linkedin.com/in/imad-khan-6526a716b
+    email: imad@iitk.ac.in
+    github: https://github.com/imad08
+    iitkaddress: A-407 Hall 13 , IITK
+    phone: "9109499915"
+  - name: Panshul Rastogi
+    image: "/images/team/panshul.png"
+    position: Secretary
+    facebook: https://www.facebook.com/panshul.rastogi.5
+    linkedin: https://www.linkedin.com/in/panshul-rastogi-02b739156/
+    phone: "8826023861"
+    email: panshul@iitk.ac.in
+    github: https://github.com/Panshul15
+    iitkaddress: B-307 Hall-13 , IITK
+  - name: Nitika Singhvi
+    image: "/images/team/nitika.png"
+    position: Secretary
+    facebook: https://www.facebook.com/nitika.singhvi.7
+    linkedin: linkedin.com/in/nitika-singhvi-07b6251b4
+    phone: "9327252320"
+    email: nitkitas@iitk.ac.in
+    github: ''
+    iitkaddress: A-512 Hall 6 , IITK
+  - name: Sonia Mehra
+    image: "/images/team/sonia.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100011970033354
+    linkedin: https://www.linkedin.com/in/sonia-mehra-713975192/
+    phone: "9560292766"
+    email: smehra@iitk.ac.in
+    github: ''
+    iitkaddress: B-401 Hall 6 , IITK
+  - name: Dhruv Mittal
+    image: "/images/team/dhruv.png"
+    position: Secretary
+    facebook: https://www.facebook.com/dhruv.mittal.73594
+    linkedin: https://www.linkedin.com/in/dhruv-mittal-62065219a/
+    phone: "9818898351"
+    email: mdhruv@iitk.ac.in
+    github: ''
+    iitkaddress: A-110 Hall 13 , IITK
+  - name: Jahnvi Tripathi
+    image: "/images/team/jahnvi.png"
+    position: Secretary
+    facebook: https://m.facebook.com/?_rdr
+    linkedin: https://www.linkedin.com/in/jahnvi-tripathi-4609861a7/
+    phone: "9893987563"
+    email: 'jahnvi@iitk.ac.in '
+    github: ''
+    iitkaddress: B-504 Hall 6 , IITK
+  - name: 'Avinash Vishwakarma '
+    image: "/images/team/avinash.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100039906004133
+    linkedin: "#"
+    phone: "7470594599"
+    email: avinashv@iitk.ac.in
+    github: "#"
+    iitkaddress: C-507 Hall-13 , IITK
+  - name: Alok Tripathi
+    image: "/images/team/alokt.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100039483047187
+    linkedin: https://www.linkedin.com/in/alok-tripathi-5754191b4/
+    phone: "8957650540"
+    email: aloktrip@iitk.ac.in
+    github: ''
+    iitkaddress: B-213 Hall 13 , IITK
+  - name: Samanvay Lakhotia
+    image: "/images/team/sam.jpg"
+    position: Secretary
+    facebook: https://m.facebook.com/samanvay.lakhotia.1
+    linkedin: "#"
+    phone: "7984671442"
+    email: samanvay@iitk.ac.in
+    github: "#"
+    iitkaddress: A-607 Hall 13 , IITK
+  - name: Shashikala Patel
+    image: "/images/team/shashikala.png"
+    position: Secretary
+    facebook: https://www.facebook.com/shashikala.patel.39/
+    linkedin: https://www.linkedin.com/in/shashikala07/
+    phone: "8318668493"
+    email: vkshashi@iitk.ac.in
+    github: https://github.com/Shashikala07
+    iitkaddress: A-607 Hall 6 , IITK
+  - name: Vaishnavi Gupta
+    image: "/images/team/vaishnavi.png"
+    position: Secretary
+    facebook: https://www.facebook.com/vaishnavi.gupta.982845/
+    linkedin: https://www.linkedin.com/in/vaishnavi-gupta-1801ab1ab/
+    phone: "9838566962"
+    email: guptav@iitk.ac.in
+    github: ''
+    iitkaddress: B-512 Hall 6 , IITK
+  - name: Nakul Jindal
+    image: "/images/team/nakul.png"
+    position: Secretary
+    facebook: https://m.facebook.com/nakul.cool.14
+    linkedin: https://www.linkedin.com/in/nakul-jindal-350a041a5
+    phone: "9871393772"
+    email: nakulj@iitk.ac.in
+    github: https://github.com/nakul-jindal
+    iitkaddress: A-507 Hall 13 , IITK
+  - name: Alok kumar
+    image: "/images/team/alokkr.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100036047078154
+    phone: "9572226188"
+    email: kralok@iitk.ac.in
+    github: ''
+    iitkaddress: E-611 Hall 13 , IITK
+    linkedin: https://www.linkedin.com/in/alok-kumar-64485a193
+  - name: Kuntal Desai
+    image: "/images/team/kuntal.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100010053608274
+    linkedin: https://www.linkedin.com/in/kuntal-desai-8678571a6
+    phone: "7977533671"
+    email: kuntald@iitk.ac.in
+    github: ''
+    iitkaddress: C-101 Hall 13 , IITK
+  - name: Darshit Trevadia
+    image: "/images/team/darshit.png"
+    position: Secretary
+    facebook: https://www.facebook.com/darshit.trevadia.1
+    linkedin: https://www.linkedin.com/in/darshittrevadia
+    phone: "7400402880"
+    email: darshitt@iitk.ac.in
+    github: https://github.com/InvincibleKnight
+    iitkaddress: C-601 Hall 13 , IITK
+  - name: Ananya Agrawal
+    image: "/images/team/ananya.png"
+    position: Secretary
+    facebook: https://www.facebook.com/profile.php?id=100037337829262
+    linkedin: ''
+    phone: ''
+    email: aananya@iitk.ac.in
+    github: ''
+    iitkaddress: A-401 Hall 6 , IITK
+  - name: Kratik Agrawal
+    image: "/images/team/kratik.png"
+    position: Secretary
+    facebook: https://www.facebook.com/advo.kratik
+    linkedin: https://www.linkedin.com/in/agrawal-kratik/
+    phone: "8824793477"
+    email: kratik@iitk.ac.in
+    github: https://github.com/advokrat
+    iitkaddress: B-205 Hall 13 , IITK
+  - name: Kritarth Lohomi
+    image: "/images/team/kritarth.png"
+    position: Secretary
+    facebook: https://m.facebook.com/kritarth.lohomi
+    linkedin: https://in.linkedin.com/in/kritarth-lohomi-a754a3194
+    phone: "7023409984"
+    email: kritarth@iitk.ac.in
+    github: https://github.com/Klohomi
+    iitkaddress: B-607 Hall 13 , IITK

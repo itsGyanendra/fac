@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Image Processing in Finance</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="2-D Deep Convolutional Neural Network model is used with financial stock market data and technical analysis indicators for developing an algorithmic trading system.">
+  <meta name="author" content="Finance and Analytics Club">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/faciitk.netlify.app/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="faciitk.netlify.app/images/logo.png" type="image/x-icon">
+  <link rel="icon" href="faciitk.netlify.app/images/logo.png" type="image/x-icon">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/faciitk.netlify.app">
+              <img src="faciitk.netlify.app/images/logo.png" alt="Finance and Analytics Club" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/faciitk.netlify.app/">Home</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/about">About</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/project">Project</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/events">Events</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/team">Our Team</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/blog">Blog</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/contact">Contact</a></li>
+              
+              
+
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('/images/featue-bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Image Processing in Finance</h1>
+          <p>2-D Deep Convolutional Neural Network model is used with financial stock market data and technical analysis indicators for developing an algorithmic trading system.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive w-100" src="/faciitk.netlify.app/images/imageprocessing-2.jpg" alt="">
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span>Project Period :</span> <strong>Summer Project 2020</strong></li>
+            
+            <li><span>Completed on :</span> <strong>17th July 2020</strong></li>
+            
+            <li><span>Software used :</span> <strong>Jupyter Notebook</strong></li>
+            
+            <li><span>Skills :</span> <strong>Data Science , Finance</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <h2 id="image-processing-in-finance">Image Processing in Finance</h2>
+<blockquote>
+<p><em>”Finance is not merely about making money. It’s about achieving our deep goals and protecting the fruits of our labor. It’s about stewardship and, therefore, about achieving a good society. ”</em></p>
+</blockquote>
+<p>Image Processing in Finance, Sounds Interesting right ! You might be thinking what is there in this project, so let me make you aware about the beauty of deep neural network and how we applied this in the field of finance, you might have noticed application of deep neural network in various fields like AI, object detection , image recognition ,voice search and tons of other things, but here we have done something out of the box. Have Patience and let&rsquo;s begin this journey.</p>
+<p>You might have heard about financial time series data , here we have proposed a novel approach to convert 1-D financial time series into a 2-D image-like data representation, yeah you heard it right! How? In our study the daily stock prices of various firms or companies are obtained from finance.yahoo.com for training, validation and testing purposes. Here, we considered data of daily stock prices in a specific interval of period . Once the data is successfully extracted we move on to the labelling part where we apply Buy,Sell and Hold labels for each day in the dataset . Now we are ready for the image creation phase but before that we have to use some technical indicators to grab some additional information (how the daily stock price fluctuates) needed for image creation, so we use 12 different technical indicators for the same. Now the data part is ready after all extraction and normalization and now it&rsquo;s time for python to do its magic ,thereby successfully creating 12 x 15 image using the processed data.</p>
+<p>Now after the preprocessing part, comes the part where we train our model using Convolutional Neural Network (CNN) not with some standard image but with the images we generated earlier. Passing these images into a multilayer Deep ConvolutionNetwork we predict the result and try to maximise our testing and validation accuracy using different machine learning techniques.In our model each stock is bought, sold or held according to the predicted label. We then analyse the results predicted by the Convolutional Neural Network (CNN) model and compare it with the results predicted by using financial evaluation, that’s amazing our model is predicting quite awesomely in the real world financial scenario.</p>
+<p>From a general perspective, more applications might start adapting 2-D CNN for non-image data in the future. There are already some indications for this trend for time series forecasting, gait recognition through radar signals and malware classification. Following these recent developments, in the near future, we might expect similar implementations in other fields to start utilizing image based CNN.</p>
+<p>If this finds you interesting, this is the research paper that we have followed and documentation of our project :</p>
+<blockquote>
+<h4 id="_research-paper_httpsdrivegooglecomfiled1cltxabm0x7a5loxe2c6lwmth6_5-yivdview-research-paper"><a href="https://drive.google.com/file/d/1cLtXabM0X7A5loXE2C6LWMtH6_5-Yivd/view" title="Research Paper"><em>Research Paper</em></a></h4>
+<h4 id="_our-full-documentation_httpsdrivegooglecomfiled1uk4o_resxstgh2foeuc0r5qyzcdvu6xzviewuspsharing-documentation"><a href="https://drive.google.com/file/d/1Uk4O_rEsXSTGH2Foeuc0R5QYzcdVu6Xz/view?usp=sharing" title="Documentation"><em>Our Full Documentation</em></a></h4>
+</blockquote>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="faciitk.netlify.app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/slick/slick.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="/faciitk.netlify.app/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>

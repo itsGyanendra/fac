@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Mean Reversion Trading Strategy</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="To learn about mean reversion as a concept and how it holds importance when one is forming a profitable trading strategy, along with other basic essentials of corporate Finance">
+  <meta name="author" content="Finance and Analytics Club">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="faciitk.netlify.app/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/faciitk.netlify.app/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="faciitk.netlify.app/images/logo.png" type="image/x-icon">
+  <link rel="icon" href="faciitk.netlify.app/images/logo.png" type="image/x-icon">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/faciitk.netlify.app">
+              <img src="faciitk.netlify.app/images/logo.png" alt="Finance and Analytics Club" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/faciitk.netlify.app/">Home</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/about">About</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/project">Project</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/events">Events</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/team">Our Team</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/blog">Blog</a></li>
+              
+              
+              
+              <li><a href="/faciitk.netlify.app/contact">Contact</a></li>
+              
+              
+
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('/images/featue-bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Mean Reversion Trading Strategy</h1>
+          <p>To learn about mean reversion as a concept and how it holds importance when one is forming a profitable trading strategy, along with other basic essentials of corporate Finance</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive w-100" src="/faciitk.netlify.app/images/mrt-2.jpg" alt="">
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span>Skills :</span> <strong>Trading</strong></li>
+            
+            <li><span>Projected completed on :</span> <strong>30 June 2020</strong></li>
+            
+            <li><span>Project Period :</span> <strong>Summer Project 2020</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <p>Mean Reversion Trading Strategies, look like four very mathematically heavy words for a newbie to digest? I hope to make you comfortable with them by the end of this article. The students who took up this project also carried no prior knowledge of the concept but ample amounts of enthu did the trick XP. Mean Reversion is a concept that captures a very fundamental characteristic of human behaviour and the market; if the market has reached a high, it will go downhill too and if the market has taken a hit, it will surely improve soon. Long story short, there is a normal and behaviours fluctuate accordingly in order to maintain it.</p>
+<p>Our project aimed to identify the top performing stocks at the NSE and also could predict and alert the trader on when to buy, sell or hold a stock that is mean reverting.</p>
+<p>To begin with the project, the team took to learning some basic finance and concepts and how the market functions with its dynamic shareholders. An introduction to Python was also taken up which the team later on manipulated their time series and implemented the models on.</p>
+<p>The first essential concept that we made use of was ‘<strong>Stationarity</strong>’ which is covered to length in the documentation provided below. The team was provided with data of 111 companies with a minute based time series for the year 2017 (90,000 data points) and the first step identified the stocks that mean reverted in the train model (60,000 data points). The selected stocks were further processed in varied time series (5min, 10min, hourly basis) and new data frames with their profits were reported. Now, as our project aimed to identify the top 25 performing stocks over that year; so we sorted the data frames on the basis of a number of variables in their respective time intervals and then merged them to identify the 25 best stocks from the list.</p>
+<p>First aim fulfilled, now the prediction model was to be prepared. For this, the team made use of the ‘<strong>ARIMA</strong> <strong>Machine Learning Model</strong>’. ARIMA stands for ‘Autoregressive integrated moving average’ and the mathematics behind it is discussed extensively in the documentation. On making use of the past data that we fed to the model through the train set, we first identified the model that fit best and there was no scope of an overfit model. On identifying the right model, the code further produced the predictions which informed the programmer when to buy, sell or hold the specific stock, fulfilling the final aim of the project.</p>
+<p>The concept of Mean Reversion finds itself in the essential toolkit for anyone who wants to make a career in finance or trading and the concept has been the foundation of many trading models that earn firms millions on the market. This project, though very primary in its approach, acted as our beginning in the world of finance.</p>
+<p>To know about the project implementation in detail, do have a look at the documentation provided below. Cheers!</p>
+<blockquote>
+<h3 id="official-documentationhttpsdrivegooglecomfiled10p2l95su6ozypfjnv05wcpaaaoipsf6uviewuspsharing-mrts---official-documentation"><a href="https://drive.google.com/file/d/10P2l95SU6oZYPfjnV05WCPAAAOipSF6U/view?usp=sharing" title="MRTS - Official Documentation">Official Documentation</a></h3>
+</blockquote>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="faciitk.netlify.app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/slick/slick.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="faciitk.netlify.app/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="/faciitk.netlify.app/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>
