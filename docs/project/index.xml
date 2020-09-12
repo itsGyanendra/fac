@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on Finance and Analytics Club</title>
-    <link>faciitk.netlify.app/project/</link>
+    <link>https://itsgyanendra.github.io/fac/project/</link>
     <description>Recent content in Project on Finance and Analytics Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
     
-	<atom:link href="faciitk.netlify.app/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://itsgyanendra.github.io/fac/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fundamental Analysis</title>
-      <link>faciitk.netlify.app/project/fundamental-analysis/</link>
+      <link>https://itsgyanendra.github.io/fac/project/fundamental-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>faciitk.netlify.app/project/fundamental-analysis/</guid>
+      <guid>https://itsgyanendra.github.io/fac/project/fundamental-analysis/</guid>
       <description>What is valuation? When I say the word valuation most of you think about models and numbers and you&amp;rsquo;re right there are lots of models and lots of numbers but behind every evaluation is a story about the company describing it&amp;rsquo;s future backed by financials so that we are not swayed away by our emotions in our fantasy world</description>
     </item>
     
     <item>
       <title>Image Processing in Finance</title>
-      <link>faciitk.netlify.app/project/image-processing-in-finance/</link>
+      <link>https://itsgyanendra.github.io/fac/project/image-processing-in-finance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>faciitk.netlify.app/project/image-processing-in-finance/</guid>
+      <guid>https://itsgyanendra.github.io/fac/project/image-processing-in-finance/</guid>
       <description>Image Processing in Finance  ”Finance is not merely about making money. It’s about achieving our deep goals and protecting the fruits of our labor. It’s about stewardship and, therefore, about achieving a good society.</description>
     </item>
     
     <item>
       <title>Mean Reversion Trading Strategy</title>
-      <link>faciitk.netlify.app/project/mean-reversion-trading-strategy/</link>
+      <link>https://itsgyanendra.github.io/fac/project/mean-reversion-trading-strategy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>faciitk.netlify.app/project/mean-reversion-trading-strategy/</guid>
+      <guid>https://itsgyanendra.github.io/fac/project/mean-reversion-trading-strategy/</guid>
       <description>Mean Reversion Trading Strategies, look like four very mathematically heavy words for a newbie to digest? I hope to make you comfortable with them by the end of this article. The students who took up this project also carried no prior knowledge of the concept but ample amounts of enthu did the trick XP.</description>
     </item>
     
     <item>
       <title>Technical Analysis of Nifty 50</title>
-      <link>faciitk.netlify.app/project/technical-analysis/</link>
+      <link>https://itsgyanendra.github.io/fac/project/technical-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>faciitk.netlify.app/project/technical-analysis/</guid>
+      <guid>https://itsgyanendra.github.io/fac/project/technical-analysis/</guid>
       <description>“You don’t make money by trading, you make it by sitting.” It takes patience to wait for the trade to develop, for the opportunity to present itself. Let the market come to you, instead of chasing the market.</description>
     </item>
     
