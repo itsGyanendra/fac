@@ -1,9 +1,10 @@
 +++
-bg_image = "/images/featue-bg.jpg"
+bg_image = "/fac/images/featue-bg.jpg"
 category = "Lectures"
 description = ""
 image = "/images/2.jpg"
 title = "Lecture on Introduction to financial statements"
+eventname = "lecture-on-introduction-to-financial-statements/"
 [[information]]
 info = " L - 2"
 label = "Venue"
@@ -33,4 +34,4 @@ An engaging discussion with the students on financial statement analysis was suc
 
 Look out for the next discussion after mid-semester break
 
-Slides used in the lecture --> [https://www.dropbox.com/s/uqexgj2s2de7ojk/FDG-Lec-2.pdf?dl=0](https://www.dropbox.com/s/uqexgj2s2de7ojk/FDG-Lec-2.pdf?dl=0 "https://www.dropbox.com/s/uqexgj2s2de7ojk/FDG-Lec-2.pdf?dl=0")
+Slides used in the lecture --> [Click Here to access the slides](https://www.dropbox.com/s/uqexgj2s2de7ojk/FDG-Lec-2.pdf?dl=0 "https://www.dropbox.com/s/uqexgj2s2de7ojk/FDG-Lec-2.pdf?dl=0")

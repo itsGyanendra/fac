@@ -4,6 +4,7 @@ category = "Summer Project 2020"
 description = "2-D Deep Convolutional Neural Network model is used with financial stock market data and technical analysis indicators for developing an algorithmic trading system."
 image = "/images/imageprocessing-2.jpg"
 title = "Image Processing in Finance"
+projectname = "image-processing-in-finance"
 [[information]]
 info = "Summer Project 2020"
 label = "Project Period"

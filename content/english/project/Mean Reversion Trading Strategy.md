@@ -4,6 +4,7 @@ category = "Summer Project 2020"
 description = "To learn about mean reversion as a concept and how it holds importance when one is forming a profitable trading strategy, along with other basic essentials of corporate Finance"
 image = "/images/mrt-2.jpg"
 title = "Mean Reversion Trading Strategy"
+projectname = "mean-reversion-trading-strategy"
 [[information]]
 info = "Trading"
 label = "Skills"

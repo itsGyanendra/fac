@@ -1,9 +1,10 @@
 +++
-bg_image = "/images/featue-bg.jpg"
+bg_image = "/fac/images/featue-bg.jpg"
 category = "Lectures"
 description = "Introductry lecture on Stocks Market exclusively for Freshers"
 image = "/images/introductorylecture.jpg"
 title = "Introductory lecture on Stock Markets "
+eventname = "introductory-lecture-on-stock-markets"
 [[information]]
 info = "August 3 , 2019"
 label = "Date"

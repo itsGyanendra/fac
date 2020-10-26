@@ -1,4 +1,4 @@
-baseURL = "https://itsgyanendra.github.io/Finance_and_Analytics_Club"
+baseURL = "https://students.iitk.ac.in/fac"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
@@ -8,7 +8,7 @@ title = "Finance and Analytics Club"
 publishDir = "docs"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = ""
 languageCode = "en-us"
 languageName = "En"
 weight = 1
@@ -34,7 +34,7 @@ URL = "contact"
 name = "Contact"
 weight = 6
 [[Languages.en.menu.main]]
-URL = "/"
+URL = ""
 name = "Home"
 weight = 1
 [[Languages.en.menu.main]]
@@ -66,7 +66,7 @@ weight = 7
 [params]
 author = "Finance and Analytics Club"
 contact_form_action = "sendmail.php"
-description = "This is meta description"
+description = "The Finance and Analytics Club, IIT Kanpur is one of the largest professional clubs on campus, hosting a full schedule of events to help everyone from those with no background in finance to those coming from finance looking to switch focus within the industry."
 email = "fdgiitk@gmail.com"
 google_analitycs_id = ""
 location = "IIT KANPUR"

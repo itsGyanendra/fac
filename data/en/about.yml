@@ -40,7 +40,7 @@ features:
   - icon: ion-ios-analytics-outline
     name: Stock Analysis
     content: ''
-  - icon: ion-ios-bar-chart-outline
+  - icon: ion-ios-mic-outline
     name: Derivative Markets
     content: ''
   - icon: ion-ios-mic-outline
@@ -53,7 +53,7 @@ features:
     name: Equity Management
     content: ''
 testimonial:
-  enable: false
+  enable: true
 mission_vision:
   enable: true
   tabs:

@@ -4,6 +4,7 @@ category = "Summer Project 2020"
 description = "To get familiarised with the concepts and applications of technical analysis (mainly related to building and testing the validity of stock indicators) using OLS Linear Regression"
 image = "/images/technical.jpg"
 title = "Technical Analysis of Nifty 50"
+projectname = "technical-analysis"
 [[information]]
 info = "Summer Project 2020"
 label = "Project Period"

@@ -116,7 +116,7 @@
 {{ with $data.homepage.funfacts }}
 <!-- Content Start -->
 <section class="testimonial">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="section-title text-center">
         <h2>{{ .title | markdownify }}</h2>
@@ -124,7 +124,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col col-md-4">
         <div class="block">
           <ul class="counter-box clearfix">
             {{ range .funfact_item }}
@@ -137,7 +137,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-5 col-md-offset-1">
+      <div class="col-md-7 col-md-offset-1">
         <div class="testimonial-carousel text-center">
           <div class="testimonial-slider owl-carousel">
             {{ range .testimonial_slider }}
@@ -164,5 +164,23 @@
 {{ partial "cta.html" . }}
 {{ end }}
 <!-- /Call to action -->
+<section>
+	<div class="conatiner" style="padding-top: 20px ;padding-bottom: 20px ; background-color : whitesmoke">
+	<div class="section-title text-center">
+	<h2 >Catch Up Live Updates</h2>
+	</div>
+	<hr style="width:80px">
+	<div class="row">
+		<div class="col-xs-offset-1 col-10  col-sm-offset-4 col-sm-4 mx-auto" >
+			<center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffdgiitkanpur&tabs=timeline&width=380&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></center>
+			
+		</div>
+		
+	</div>
+</div>
+</section>
+
+
+
 
 {{ end }}

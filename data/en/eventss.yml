@@ -1,7 +1,0 @@
----
-eventss:
- enable : true
- events:
- - date: Shubham Gupta
-   eventtitle: "/images/team/shubham.png"
-   description: Coordinator

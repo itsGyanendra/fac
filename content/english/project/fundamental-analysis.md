@@ -4,6 +4,7 @@ category = "Summer Project 2020"
 description = "DCF valuation is used to evaluate the company's performance and predicting them for the future, using the three most fundamental statements - Balance sheet, income statement and Cash flow statement"
 image = "/images/fundamentalanalysis-6.jpg"
 title = "Fundamental Analysis"
+projectname = "fundamental-analysis"
 [[information]]
 info = "Summer Project 2020"
 label = "Project Period"

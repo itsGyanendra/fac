@@ -50,7 +50,7 @@ h1 a{color:#131313; font-weight:bold;}">
     		            <img src="{{ .bgimage }}" alt="" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
-    		            <img src="{{ .image }}" alt="{{ .name }}" class="profile"/>
+    		            <img src="{{.Site.BaseURL}}/{{ .image }}" alt="{{ .name }}" class="profile"/>
     		        </div>
     		        <div class="card-content">
                     <h2>{{ .name }}<small>{{ .position }}</small></h2>
@@ -73,7 +73,7 @@ h1 a{color:#131313; font-weight:bold;}">
     		            <img src="{{ .bgimage }}" alt="" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
-    		            <img src="{{ .image }}" alt="{{ .name }}" class="profile"/>
+    		            <img src="/fac/{{.image}}" alt="{{ .name }}" class="profile"/>
     		        </div>
     		        <div class="card-content">
                     <h2>{{ .name }}<small>{{ .position }}</small></h2>
@@ -87,9 +87,9 @@ h1 a{color:#131313; font-weight:bold;}">
                 
     		</div>
          <div class="col-sm-8" style ="padding-top:10px;padding-bottom:10px;">
-    		    <div class="card profile-card-3">
+    		    <div class="card" style="background:#efefef;" >
     		        
-    		        <div class="card-content example" >
+    		        <div class="card-content example">
                         
                     {{.content}}
                       
@@ -108,7 +108,7 @@ h1 a{color:#131313; font-weight:bold;}">
     		            <img src="{{ .bgimage }}" alt="" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
-    		            <img src="{{ .image }}" alt="{{ .name }}" class="profile"/>
+    		            <img src="/fac/{{ .image }}" alt="{{ .name }}" class="profile"/>
     		        </div>
     		        <div class="card-content">
                     <h2>{{ .name }}<small>{{ .position }}</small></h2>

@@ -4,7 +4,7 @@ team:
   facultyadvisor: []
   coordinator:
   - name: Shubham Gupta
-    image: "/images/team/shubham.png"
+    image: "images/team/shubham.png"
     position: Coordinator
     facebook: https://www.facebook.com/profile.php?id=100026407539210
     linkedin: https://www.linkedin.com/in/shubham-gupta-07a13217b/
@@ -14,7 +14,7 @@ team:
     iitkaddress: G-380 Hall 2 , IITK
     content: Hi, I am Shubham, a junior undergraduate in Chemical Engineering. I started working with the club since the beginning here at IIT Kanpur. My particular interests in Finance include derivative markets, forex and quantitative analysis. What I love about Finance is the simplistic mathematical beauty behind complicated nouns.
   - name: Sarim Haroon
-    image: "/images/team/sarim.jpg"
+    image: "images/team/sarim.jpg"
     position: Coordinator
     facebook: https://www.facebook.com/sarim.haroon
     linkedin: https://www.linkedin.com/in/sarimharoon/
@@ -24,7 +24,7 @@ team:
     content: Hi, I am Sarim Haroon, an MBA second-year student at IITK. My particular area of interest in finance is- How volatilities across asset classes (arising from corporate and market factors) triumph over our rational decision-making process — a study in Behavioural Finance. Being a part of this club, I feel buzzed all the time with the various thoughts from numerous colleagues of mine. I feel thankful to the club for bringing me closer to the notion that finance is actually not limited to our textbooks, but rather, in encashing the potential within an idea.
     iitkaddress: B-227 Hall 10 ,IITK
   - name: Shaurya Jain
-    image: "/images/team/shaurya.png"
+    image: "images/team/shaurya.png"
     position: Coordinator
     facebook: https://www.facebook.com/shourya.jain.790
     linkedin: https://www.linkedin.com/in/shaurya-jain-a9b1b8192/
@@ -34,7 +34,7 @@ team:
     iitkaddress: E-312 Hall 12 , IITK
     content: Hi, I am shourya jain an undergraduate in Materials science. My field of interest are quantitative and cooperative Finance. I am so much fascinated about using AI and deep learning in Financial modeling and in Algotrading. I am  associated with the club since my first year and learnt a lot from the club and peoples associated with it and love to share my knowledge with the campus community and anyone who wants to explore about Finance.
   - name: Jatin Khandelwal
-    image: "/images/team/jatin.jpg"
+    image: "images/team/jatin.jpg"
     position: Coordinator
     facebook: https://www.facebook.com/jatin.khandelwal.336
     linkedin: https://www.linkedin.com/in/jatin-khandelwal-b514b71a6/
@@ -42,7 +42,7 @@ team:
     email: jatin@iitk.ac.in
     github: ''
     iitkaddress: A-310 Hall 12 , IITK
-    content:
+    content: I am a Material Science undergrad at IITK. My interests lie in time series analysis, algorithmic trading and quantitative finance. I've been associated with the club since my freshman year and I was attracted to the club because it brings together a community of like-minded individuals with interests in corporate finance and data analysis. The club has built a reputation for its quality of learning experience and helping community, and I wish to be able to spread it further.
   secretary:
   - name: Gyanendra Kumar
     image: "/images/team/gyanendra.png"
@@ -215,6 +215,15 @@ team:
     email: kuntald@iitk.ac.in
     github: ''
     iitkaddress: C-101 Hall 13 , IITK
+  - name: Kanika Kukreja
+    image: "/images/team/kanika.png"
+    position: Secretary
+    facebook: https://www.facebook.com/kanika.kukreja.33
+    linkedin: https://www.linkedin.com/in/kanika-kukreja-9378681a6
+    phone: "8770788913"
+    email: kanikak@iitk.ac.in
+    github: https://github.com/Klohomi
+    iitkaddress: A-610 Hall 6 , IITK
   - name: Darshit Trevadia
     image: "/images/team/darshit.png"
     position: Secretary
