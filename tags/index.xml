@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Finance and Analytics Club</title>
+    <link>https://itsgyanendra.github.io/fac/tags/</link>
+    <description>Recent content in Tags on Finance and Analytics Club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Aug 2020 18:56:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsgyanendra.github.io/fac/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finance</title>
+      <link>https://itsgyanendra.github.io/fac/tags/finance/</link>
+      <pubDate>Sat, 29 Aug 2020 18:56:00 +0000</pubDate>
+      
+      <guid>https://itsgyanendra.github.io/fac/tags/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stocks</title>
+      <link>https://itsgyanendra.github.io/fac/tags/stocks/</link>
+      <pubDate>Sat, 29 Aug 2020 18:56:00 +0000</pubDate>
+      
+      <guid>https://itsgyanendra.github.io/fac/tags/stocks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trading</title>
+      <link>https://itsgyanendra.github.io/fac/tags/trading/</link>
+      <pubDate>Sat, 29 Aug 2020 18:56:00 +0000</pubDate>
+      
+      <guid>https://itsgyanendra.github.io/fac/tags/trading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithmic Trading</title>
+      <link>https://itsgyanendra.github.io/fac/tags/algorithmic-trading/</link>
+      <pubDate>Thu, 27 Aug 2020 21:30:00 +0000</pubDate>
+      
+      <guid>https://itsgyanendra.github.io/fac/tags/algorithmic-trading/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

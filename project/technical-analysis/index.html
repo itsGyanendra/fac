@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Technical Analysis of Nifty 50</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="To get familiarised with the concepts and applications of technical analysis (mainly related to building and testing the validity of stock indicators) using OLS Linear Regression">
+  <meta name="author" content="Finance and Analytics Club">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://itsgyanendra.github.io/fac/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://itsgyanendra.github.io/fac/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://itsgyanendra.github.io/fac/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://itsgyanendra.github.io/fac/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://itsgyanendra.github.io/fac/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://itsgyanendra.github.io/fac/images/logo.png" type="image/x-icon">
+  <link rel="icon" href="https://itsgyanendra.github.io/fac/images/logo.png" type="image/x-icon">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/fac">
+              <img src="https://itsgyanendra.github.io/fac/images/logo.png" alt="Finance and Analytics Club" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/fac">Home</a></li>
+              
+              
+              
+              <li><a href="/fac/about">About</a></li>
+              
+              
+              
+              <li><a href="/fac/project">Project</a></li>
+              
+              
+              
+              <li><a href="/fac/events">Events</a></li>
+              
+              
+              
+              <li><a href="/fac/team">Our Team</a></li>
+              
+              
+              
+              <li><a href="/fac/blog">Blog</a></li>
+              
+              
+              
+              <li><a href="/fac/contact">Contact</a></li>
+              
+              
+
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('https://itsgyanendra.github.io/images/featue-bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Technical Analysis of Nifty 50</h1>
+          <p>To get familiarised with the concepts and applications of technical analysis (mainly related to building and testing the validity of stock indicators) using OLS Linear Regression</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive w-100" src="/fac/images/technical.jpg" alt="">
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span>Project Period :</span> <strong>Summer Project 2020</strong></li>
+            
+            <li><span>Completed on :</span> <strong>28th June 2020</strong></li>
+            
+            <li><span>Skills :</span> <strong>Data Science , Finance</strong></li>
+            
+            <li><span>Software Used :</span> <strong>Jupyter Notebook</strong></li>
+            
+          </ul>
+      
+          <h2>Share:- </h2>
+          <div id="share-buttons"> 
+           
+          <a href="https://www.facebook.com/sharer.php?u=https://students.iitk.ac.in/fac/project/technical-analysis" target="_blank"><img src="https://4.bp.blogspot.com/-raFYZvIFUV0/UwNI2ek6i3I/AAAAAAAAGSA/zs-kwq0q58E/s1600/facebook.png" alt="Facebook" /></a>
+           
+          <a href="https://twitter.com/share?url=https://students.iitk.ac.in/fac/project/technical-analysis&text=Simple Share Buttons" target="_blank"><img src="https://4.bp.blogspot.com/--ISQEurz3aE/UwNI4hDaQMI/AAAAAAAAGS4/ZAgmPiM9Xpk/s1600/twitter.png" alt="Twitter" /></a> 
+           
+          <a href="https://plus.google.com/share?url=https://students.iitk.ac.in/fac/project/technical-analysis" target="_blank"><img src="https://2.bp.blogspot.com/-9ijXNtKTaSk/UwNI3ANT4MI/AAAAAAAAGSY/Tu4kE8x9SnI/s1600/google.png" alt="Google" /></a> 
+            
+           <a href="http://reddit.com/submit?url=https://students.iitk.ac.in/fac/project/technical-analysis&title=Simple Share Buttons" target="_blank"><img src="https://4.bp.blogspot.com/-1-mZEa1eiyc/UwNI4JytiFI/AAAAAAAAGSs/AoKmBkkJR-s/s1600/reddit.png" alt="Reddit" /></a>
+             
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://students.iitk.ac.in/fac/project/technical-analysis" target="_blank"><img src="https://2.bp.blogspot.com/-3_cATk7Wlho/UwNI3eoTTLI/AAAAAAAAGSQ/Y8cpq6S-SeQ/s1600/linkedin.png" alt="LinkedIn" /></a> 
+       </div>
+       
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <blockquote>
+<p>“You don’t make money by trading, you make it by sitting.” It takes patience to wait for the trade to develop, for the opportunity to present itself. Let the market come to you, instead of chasing the market. Chart patterns are very accurate. They have proven their accuracy and predictability time and time again, but you have to wait for them to develop.”<br>
+― <strong>Fred McAllen</strong></p>
+</blockquote>
+<p>Title sounds tough! No, it’s not. Let’s read about this fun-filled, interesting project that our club worked on and what all it consisted of.</p>
+<p>Let us start with what the title means.</p>
+<p>The <strong>NIFTY 50</strong> is a benchmark Indian stock market index that represents the weighted average of 50 of the largest Indian companies listed on the National Stock Exchange. NIFTY 50 is ranked fourth in the world by equity trading volume, covers 14 sectors of the Indian Economy, and at any point in time, depicts the strength of Indian stock market.</p>
+<p>What exactly do we mean by Technical Analysis of any stock?</p>
+<p>Technical analysis is the study of chart patterns and statistical figures to understand market trends and pick stocks accordingly. Sounds complicated? Here is a simpler definition.</p>
+<p>One day the share price is up, another day it may be down. But over time, if you look at the stock price’s movement, you may see trends and patterns emerge. The study of these chart patterns and trends in stock prices is called technical analysis of stocks.</p>
+<p>Many other investors analyse stocks based on their fundamentals: such as their revenue, valuation or industry trends. For that we have a whole other project under us!!</p>
+<p>Now, coming to our project!</p>
+<p>Initial task was to get used to Python libraries like NumPy, Pandas and Matplotlib, because this is where we coded everything. Then we got to know about various sources through which we can import stock data and get daily prices of the stock that we needed analyse.</p>
+<p>We used <em>read_csv()</em> method and extracted the data from Yahoo Finance, dropping unnecessary columns like Open, Low, High, etc.</p>
+<p>We also applied the fundamentals of statistics, confidence intervals, and probability distribution, used Methods like <em>info(), describe(), mean(),</em> and <em>std()</em> and analysed the stock data_._</p>
+<p>Then we plotted the daily returns by transforming the Adjusted close price into percentage change (new column) using <em>pct_change()</em> and then using Seaborn to plot the KDE distribution of the daily returns. We used <em>rolling()</em> and <em>mean()</em> methods to calculate the simple moving average of the last X days.</p>
+<p>Further we plotted line graphs of SMA and Closing Price to check for the cross-overs using <em>plot()</em> method and implemented other key features of Matplotlib.</p>
+<p>Technical indicators are chart analysis tools that helps traders better understand and act on price movements There is a huge range of technical analysis tools available that analyse trends, provide price averages, measure volatility and more. In our project, other than Simple Moving Average (SMA) we analysed some extremely popular indicators, building them from scratch on Python for e.g. Relative Strength Indicator (RSI), Bollinger Bands, Exponential Moving Averages (EMA), Moving Average Convergence- Divergence (MACD) etc. After building those indicators, we tried finding bullish and bearish crossovers by visualising the data, plotted signal lines and prepared a trading strategy accordingly.</p>
+<p>To test the validity and robustness of our strategy, we calculated mean absolute returns of 10 days. Then, using python library <em>statsmodels.formula.api, we</em> developed an OLS linear regression model in Python with mean absolute return as the dependent variable and each of the three indicators as the independent variable. Separate regression equations for separate indicators.</p>
+<p>Also, to test further we developed an OLS multiple linear regression model with absolute return as the dependent variable and all our indicators as the independent variables.</p>
+<p>To test the significance of models and variables, we used <em>model.summary()</em> and checked the values of P(f), R2, P(t) and found the coefficients and intercepts of our model.</p>
+<p>I hope this summary garnered your interest in the project.</p>
+<p>View the full documentation of our project:</p>
+<blockquote>
+<h3 id="full-documentationhttpsdrivegooglecomfiled1jim7gh5lypqxdjg2ilzcphaheiqltbpyviewuspsharing-official-documentation---technical-analysis-of-nifty-50"><a href="https://drive.google.com/file/d/1JIm7Gh5LYPQXdjg2ILZCpHahEiqlTBPy/view?usp=sharing" title="Official Documentation - Technical Analysis of Nifty 50">Full Documentation</a></h3>
+</blockquote>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+ #share-buttons img { width: 55px; padding: 5px; border: 0; box-shadow: 0; display: inline; }
+</style>
+
+  
+  
+    <footer class="site-footer" >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-offset-1 col-md-4">
+            <h2>About</h2>
+          
+            <p class="text-justify" style ="font-size:16px ;color:#737373;">The Finance and Analytics Club, IIT Kanpur is one of the largest professional clubs on campus, hosting a full schedule of events to help everyone from those with no background in finance to those coming from finance looking to switch focus within the industry.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-offset-1 col-md-2">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="">Home</a></li>
+              <li><a href="/fac/about">About</a></li>
+              <li><a href="/fac/project">Projects</a></li>
+              <li><a href="/fac/events">Events</a></li>
+              <li><a href="/fac/blog">Blog</a></li>
+              <li><a href="/fac/contact">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-offset-1 col-md-2">
+            <h2>IITK Links</h2>
+            <ul class="footer-links">
+              <li><a href="https://www.iitk.ac.in/">IITK Homepage</a></li>
+              <li><a href="https://students.iitk.ac.in/gymkhana/">Students' Gymkhana</a></li>
+              <li><a href="https://students.iitk.ac.in/snt/">Science and Technology Council</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="  col-md-offset-1 col-md-4 col-sm-6 col-xs-12">
+            <p class="copyright-text" style ="font-size:14px;">Copyright &copy; 2020
+         <a href="https://students.iitk.ac.in/fac">Finance and Analytics Club , IIT Kanpur</a>.
+            </p>
+          </div>
+          <div class=" col-md-3 col-sm-offset-1 col-sm-6 col-xs-12">
+            <p class="copyright-text" style ="font-size:16px;">Designed by :
+         <a href="https://itsgyanendra.github.io/gyan/"><strong>Gyanendra Kumar</strong></a>
+          <a href="https://itsgyanendra.github.io/gyan/"><i class="fa fa-external-link" style="color:white;"></i></a>
+            </p>
+          </div>
+
+         
+        </div>
+      </div>
+</footer>
+<style>
+.site-footer
+{
+  background-color:#090606;
+  padding:45px 0 20px;
+  font-size:16px;
+  line-height:34px;
+  color:white;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+  font-size :12px;
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+</style>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="https://itsgyanendra.github.io/fac/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://itsgyanendra.github.io/fac/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://itsgyanendra.github.io/fac/plugins/slick/slick.min.js"></script>
+
+<script src="https://itsgyanendra.github.io/fac/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://itsgyanendra.github.io/fac/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://itsgyanendra.github.io/fac/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="https://itsgyanendra.github.io/fac/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>
