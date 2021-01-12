@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frequently Asked Questions on Finance and Analytics Club</title>
-    <link>https://istgyanendra.github.io/fac/docs/faq/</link>
+    <link>https://itsgyanendra.github.io/fac/faq/</link>
     <description>Recent content in Frequently Asked Questions on Finance and Analytics Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Mar 2020 13:05:29 +0600</lastBuildDate>
     
-	<atom:link href="https://istgyanendra.github.io/fac/docs/faq/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://itsgyanendra.github.io/fac/faq/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

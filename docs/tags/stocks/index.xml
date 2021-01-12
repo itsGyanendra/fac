@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stocks on Finance and Analytics Club</title>
-    <link>https://istgyanendra.github.io/fac/docs/tags/stocks/</link>
+    <link>https://itsgyanendra.github.io/fac/tags/stocks/</link>
     <description>Recent content in Stocks on Finance and Analytics Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Aug 2020 18:56:00 +0000</lastBuildDate>
     
-	<atom:link href="https://istgyanendra.github.io/fac/docs/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://itsgyanendra.github.io/fac/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Trading Strategies </title>
-      <link>https://istgyanendra.github.io/fac/docs/blog/trading-strategies/</link>
+      <link>https://itsgyanendra.github.io/fac/blog/trading-strategies/</link>
       <pubDate>Sat, 29 Aug 2020 18:56:00 +0000</pubDate>
       
-      <guid>https://istgyanendra.github.io/fac/docs/blog/trading-strategies/</guid>
+      <guid>https://itsgyanendra.github.io/fac/blog/trading-strategies/</guid>
       <description>Note : All the finance related words are described just after they are used, so there’s no need to panic!
  1. Value Investing: Value investing is an investment strategy in which the trader buys stocks that are trading at a lower price than its book value and sell the stocks that are trading at a higher price than their book value.</description>
     </item>
