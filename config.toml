@@ -1,4 +1,4 @@
-baseURL = "https://istgyanendra.github.io/fac"
+baseURL = "https://istgyanendra.github.io/fac/docs"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
