@@ -133,6 +133,12 @@
               
               
               
+              
+              
+              <label class="btn btn-sm btn-primary">
+                <input type="radio" name="shuffle-filter" value="workshop">Workshop
+              </label>
+              
               <label class="btn btn-sm btn-primary">
                 <input type="radio" name="shuffle-filter" value="lectures">Lectures
               </label>
@@ -140,6 +146,17 @@
             </div>
           </div>
           <div class="row shuffle-wrapper">
+            
+            <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;workshop&quot;]">
+              <img src="/fac/images/placement.jpg" alt="Equity Valuation and Investing Workshop">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <a href="/fac/images/placement.jpg" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                  <a class="h3" href="https://students.iitk.ac.in/fac/events/equity-valuation-and-investing-workshop/">Equity Valuation and Investing Workshop</a>
+                  <p>Session with FAC team @ IIT Kanpur</p>
+                </div>
+              </div>
+            </div>
             
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;lectures&quot;]">
               <img src="/fac/images/introductorylecture.jpg" alt="Introductory lecture on Stock Markets ">
@@ -181,7 +198,20 @@
   </div>
 </section>
 
-
+<style>
+@media screen and (min-width: 880px) {
+  iframe {
+    width: 100%;
+    height:548px;
+  }
+}
+@media screen and (max-width: 880px) {
+  iframe {
+    width: 100%;
+    height:260px;
+  }
+}
+</style>
   
   
     <footer class="site-footer" >
